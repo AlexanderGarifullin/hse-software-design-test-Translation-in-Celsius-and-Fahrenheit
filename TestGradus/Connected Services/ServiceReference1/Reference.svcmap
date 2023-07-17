@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="62096504-0329-464f-8f1c-edc5b816961c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://fahrenheittocelsiusconversion.azurewebsites.net/ConversionService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ConversionService.xsd" MetadataType="Schema" ID="9445c83e-b02e-48b4-bf38-754009d3cf42" SourceId="1" SourceUrl="http://fahrenheittocelsiusconversion.azurewebsites.net/ConversionService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ConversionService.disco" MetadataType="Disco" ID="cc9bb25d-d9f4-4e84-ad6d-49a1f08cc6b8" SourceId="1" SourceUrl="http://fahrenheittocelsiusconversion.azurewebsites.net/ConversionService.svc?disco" />
+    <MetadataFile FileName="ConversionService.wsdl" MetadataType="Wsdl" ID="07c3322e-d92b-40a9-8501-301de37905db" SourceId="1" SourceUrl="http://fahrenheittocelsiusconversion.azurewebsites.net/ConversionService.svc?wsdl" />
+    <MetadataFile FileName="ConversionService1.xsd" MetadataType="Schema" ID="99ff4da7-a32e-413d-a621-8652b68b3fa6" SourceId="1" SourceUrl="http://fahrenheittocelsiusconversion.azurewebsites.net/ConversionService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ConversionService1.wsdl" MetadataType="Wsdl" ID="5b4b63fb-71d0-4b53-bdd5-93907858feeb" SourceId="1" SourceUrl="http://fahrenheittocelsiusconversion.azurewebsites.net/ConversionService.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
